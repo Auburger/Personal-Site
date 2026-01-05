@@ -1,2 +1,2 @@
 # Personal-Site
-When it's finished, this'll be my personal website. I will probably have an actual domain, lol.
+My personal website. Yes, it's not finished. Yes, I will get around to finishing it and hosting it. Eventually... Trust.
