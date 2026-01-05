@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Ballet", cursive;
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+}
+
+p {
+    color: white;
+    font-size: 3vh;
+}

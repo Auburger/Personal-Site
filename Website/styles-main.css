@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Ballet", cursive;
+    color: white;
+    text-align: center;
+    margin-top: 25vh;
+    font-size: 18rem;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    opacity: 0;
+    font-size: 3rem;
+}
+
+h1.fadein {
+    animation-name: fadeinopacity;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+}
+
+p.fadein {
+    animation-name: fadeinopacity;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeinopacity {
+    0% {
+        opacity: 0;
+        margin-top: 50vh;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.btn {
+    margin: 1rem auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: fit-content;
+    color: white;
+    background-color: black;
+    opacity: 0;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #820a20;
+    border: 1px solid white !important;
+}
+
+.btn.fadein {
+    animation-name: fadeinopacity;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: auto;
+    transition: all 0.5s ease;
+}
+
+.sidebarbutton {
+    color: white;
+}
